@@ -1,26 +1,26 @@
-﻿{
-  "generated_at": "2026-03-06T00:00:00Z",
+{
+  "generated_at": "2026-03-06T11:02:05.643302+00:00",
   "items": [
     {
-      "title": "Aktualizacje CS2 chwilowo niedostępne",
-      "body": "Jeśli lokalny plik newsów nie został jeszcze odświeżony przez GitHub Actions, strona pokaże te wpisy zastępcze. Po uruchomieniu workflow sekcja będzie automatycznie aktualizowana.",
-      "date": "Tryb zapasowy",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "Fallback"
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Starting today, items listed for sale on Steam Community Market will remain in your inventory for use while they are listed (e.g., your weapon can be equipped in your loadout while it is listed). While listed, items can",
+      "date": "04.03.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059919569",
+      "tag": "CS2 Update"
     },
     {
-      "title": "Oficjalne newsy Counter-Strike 2",
-      "body": "Najświeższe informacje o Counter-Strike 2 są publikowane na Steam. Workflow repozytorium pobiera te wpisy i zapisuje je do tego pliku JSON dla GitHub Pages.",
-      "date": "Steam",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "Oficjalne"
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Added Instance.SetSaveDataAdded Instance.GetSaveDataWorkshop maps can write up to 1MB of save data.Workshop saves leverage Steam Cloud and persist across installs.Save data size limit can be configured with sv_workshop_",
+      "date": "25.02.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806706141",
+      "tag": "CS2 Update"
     },
     {
-      "title": "GitHub Actions odświeży tę sekcję automatycznie",
-      "body": "Po włączeniu uprawnień do zapisu dla workflow GitHub zacznie sam aktualizować plik updates.json. Dzięki temu newsy będą działały bez backendu i bez problemów z CORS.",
-      "date": "GitHub",
-      "url": "https://docs.github.com/actions",
-      "tag": "Auto"
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Mitigated a performance issue that primarily affected Windows 10 users with recent Intel CPUs.Fixed a case where the Delete Item inventory option wasn't working.Fixed a case of visual corruption using iron sights on AMD",
+      "date": "23.02.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633195926",
+      "tag": "CS2 Update"
     }
   ]
 }
