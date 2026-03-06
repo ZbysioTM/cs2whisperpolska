@@ -1,0 +1,26 @@
+﻿{
+  "generated_at": "2026-03-06T00:00:00Z",
+  "items": [
+    {
+      "title": "Aktualizacje CS2 chwilowo niedostępne",
+      "body": "Jeśli lokalny plik newsów nie został jeszcze odświeżony przez GitHub Actions, strona pokaże te wpisy zastępcze. Po uruchomieniu workflow sekcja będzie automatycznie aktualizowana.",
+      "date": "Tryb zapasowy",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "Fallback"
+    },
+    {
+      "title": "Oficjalne newsy Counter-Strike 2",
+      "body": "Najświeższe informacje o Counter-Strike 2 są publikowane na Steam. Workflow repozytorium pobiera te wpisy i zapisuje je do tego pliku JSON dla GitHub Pages.",
+      "date": "Steam",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "Oficjalne"
+    },
+    {
+      "title": "GitHub Actions odświeży tę sekcję automatycznie",
+      "body": "Po włączeniu uprawnień do zapisu dla workflow GitHub zacznie sam aktualizować plik updates.json. Dzięki temu newsy będą działały bez backendu i bez problemów z CORS.",
+      "date": "GitHub",
+      "url": "https://docs.github.com/actions",
+      "tag": "Auto"
+    }
+  ]
+}

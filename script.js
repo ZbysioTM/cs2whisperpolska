@@ -1,25 +1,36 @@
 ﻿const DISCORD_INVITE_CODE = "Bwfd8VYA";
 const DISCORD_INVITE_URL = `https://discord.com/api/v9/invites/${DISCORD_INVITE_CODE}?with_counts=true&with_expiration=true`;
-const STEAM_NEWS_URL =
-  "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=730&count=3&maxlength=280&feeds=steam_community_announcements";
+const LOCAL_UPDATES_URL = "./updates.json";
+
+const fallbackUpdates = [
+  {
+    title: "Aktualizacje CS2 chwilowo niedostępne",
+    body: "Jeśli lokalny plik newsów nie został jeszcze wygenerowany przez GitHub Actions, strona pokazuje wpisy zastępcze i link do oficjalnych aktualizacji Counter-Strike 2.",
+    date: "Tryb zapasowy",
+    url: "https://store.steampowered.com/news/app/730",
+    tag: "Fallback",
+  },
+  {
+    title: "Oficjalne newsy Counter-Strike 2",
+    body: "Kliknij, aby przejść bezpośrednio do oficjalnych newsów Steam. Po pierwszym uruchomieniu workflow GitHub ta sekcja będzie już automatycznie wypełniana świeżymi wpisami.",
+    date: "Steam",
+    url: "https://store.steampowered.com/news/app/730",
+    tag: "Oficjalne",
+  },
+  {
+    title: "Automatyczne odświeżanie przez GitHub Actions",
+    body: "Repozytorium zawiera workflow, który regularnie pobiera newsy CS2 i zapisuje je do pliku updates.json. To działa poprawnie z GitHub Pages, bo przeglądarka czyta już lokalny plik z repozytorium.",
+    date: "GitHub",
+    url: "https://docs.github.com/actions",
+    tag: "Auto",
+  },
+];
 
 const memberCountElement = document.getElementById("member-count");
 const onlineCountElement = document.getElementById("online-count");
 const serverStatusElement = document.getElementById("server-status");
 const serverNoteElement = document.getElementById("server-note");
 const updatesGridElement = document.getElementById("updates-grid");
-
-function formatSteamDate(unixSeconds) {
-  if (!unixSeconds) {
-    return "Brak daty";
-  }
-
-  return new Intl.DateTimeFormat("pl-PL", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  }).format(new Date(unixSeconds * 1000));
-}
 
 function stripHtml(value) {
   const temp = document.createElement("div");
@@ -54,29 +65,19 @@ async function loadDiscordStats() {
   }
 }
 
-function renderSteamUpdates(items) {
-  if (!items.length) {
-    updatesGridElement.innerHTML = `
-      <article class="update-card">
-        <span class="update-tag">Brak danych</span>
-        <h3>Nie udało się pobrać aktualizacji CS2.</h3>
-        <p>Spróbuj ponownie później albo odśwież stronę.</p>
-      </article>
-    `;
-    return;
-  }
-
+function renderUpdates(items) {
   updatesGridElement.innerHTML = items
     .map((item) => {
       const title = item.title || "Aktualizacja Counter-Strike 2";
-      const body = stripHtml(item.contents || "").slice(0, 220) || "Brak opisu";
+      const body = item.body || stripHtml(item.contents || "").slice(0, 220) || "Brak opisu";
       const safeBody = body.length >= 220 ? `${body}...` : body;
-      const date = formatSteamDate(item.date);
-      const link = item.url || "https://store.steampowered.com/app/730/CounterStrike_2/";
+      const date = item.date || "Brak daty";
+      const link = item.url || "https://store.steampowered.com/news/app/730";
+      const tag = item.tag || "CS2 Update";
 
       return `
         <article class="update-card reveal visible">
-          <span class="update-tag">CS2 Update</span>
+          <span class="update-tag">${tag}</span>
           <h3>${title}</h3>
           <p>${safeBody}</p>
           <div class="update-meta">
@@ -89,19 +90,25 @@ function renderSteamUpdates(items) {
     .join("");
 }
 
-async function loadSteamUpdates() {
+async function loadCs2Updates() {
   try {
-    const response = await fetch(STEAM_NEWS_URL);
+    const response = await fetch(LOCAL_UPDATES_URL, { cache: "no-store" });
     if (!response.ok) {
-      throw new Error(`Steam response ${response.status}`);
+      throw new Error(`Local updates response ${response.status}`);
     }
 
     const data = await response.json();
-    const items = data.appnews?.newsitems || [];
-    renderSteamUpdates(items);
+    const items = Array.isArray(data.items) ? data.items : [];
+
+    if (!items.length) {
+      renderUpdates(fallbackUpdates);
+      return;
+    }
+
+    renderUpdates(items);
   } catch (error) {
-    console.error("Steam news error:", error);
-    renderSteamUpdates([]);
+    console.error("Local updates error:", error);
+    renderUpdates(fallbackUpdates);
   }
 }
 
@@ -126,4 +133,4 @@ function initRevealAnimations() {
 
 initRevealAnimations();
 loadDiscordStats();
-loadSteamUpdates();
+loadCs2Updates();
