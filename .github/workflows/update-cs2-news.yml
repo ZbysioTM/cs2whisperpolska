@@ -1,35 +1,63 @@
-"video.cfg"
-{
-	"setting.defaultres"		"1080"
-	"setting.defaultresheight"		"1080"
-	"setting.refreshrate_numerator"		"140859140"
-	"setting.refreshrate_denominator"		"2348836"
-	"setting.fullscreen"		"1"
-	"setting.mat_vsync"		"0"
-	"setting.monitor_index"		"0"
-	"Version"		"16"
-	"VendorID"		"4318"
-	"DeviceID"		"7313"
-	"setting.cpu_level"		"1"
-	"setting.gpu_mem_level"		"2"
-	"setting.gpu_level"		"3"
-	"setting.knowndevice"		"1"
-	"setting.nowindowborder"		"1"
-	"setting.fullscreen_min_on_focus_loss"		"1"
-	"setting.high_dpi"		"0"
-	"setting.coop_fullscreen"		"0"
-	"Autoconfig"		"0"
-	"setting.shaderquality"		"0"
-	"setting.r_texturefilteringquality"		"0"
-	"setting.msaa_samples"		"4"
-	"setting.r_csgo_cmaa_enable"		"0"
-	"setting.videocfg_shadow_quality"		"0"
-	"setting.videocfg_dynamic_shadows"		"0"
-	"setting.videocfg_texture_detail"		"0"
-	"setting.videocfg_particle_detail"		"0"
-	"setting.videocfg_ao_detail"		"0"
-	"setting.videocfg_hdr_detail"		"-1"
-	"setting.videocfg_fsr_detail"		"0"
-	"setting.r_low_latency"		"1"
-	"setting.aspectratiomode"		"2"
-}
+import json
+import re
+import urllib.request
+from datetime import datetime, timezone
+
+STEAM_NEWS_URL = (
+    "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/"
+    "?appid=730&count=3&maxlength=280&feeds=steam_community_announcements"
+)
+OUTPUT_PATH = "updates.json"
+FALLBACK_URL = "https://store.steampowered.com/news/app/730"
+
+
+def strip_html(value: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", value or "")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def format_date(unix_seconds: int) -> str:
+    dt = datetime.fromtimestamp(unix_seconds, tz=timezone.utc)
+    return dt.strftime("%d.%m.%Y")
+
+
+def load_news() -> dict:
+    request = urllib.request.Request(
+        STEAM_NEWS_URL,
+        headers={"User-Agent": "Mozilla/5.0"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.loads(response.read().decode("utf-8"))
+
+    items = []
+    for item in data.get("appnews", {}).get("newsitems", [])[:3]:
+        body = strip_html(item.get("contents", ""))[:220]
+        items.append(
+            {
+                "title": item.get("title") or "Aktualizacja Counter-Strike 2",
+                "body": body or "Brak opisu aktualizacji.",
+                "date": format_date(item.get("date", 0)) if item.get("date") else "Brak daty",
+                "url": item.get("url") or FALLBACK_URL,
+                "tag": "CS2 Update",
+            }
+        )
+
+    if not items:
+        raise RuntimeError("No news items returned from Steam API")
+
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "items": items,
+    }
+
+
+def main() -> None:
+    payload = load_news()
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2)
+        file.write("\n")
+
+
+if __name__ == "__main__":
+    main()
