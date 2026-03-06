@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS2 WHISPER POLSKA</title>
+    <meta
+      name="description"
+      content="Oficjalna strona społeczności CS2 WHISPER POLSKA na Discordzie. Aktualne statystyki serwera, rangi poziomów i najnowsze aktualizacje Counter-Strike 2."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">
+            <span class="brand-mark">CS2</span>
+            <span class="brand-name">WHISPER POLSKA</span>
+          </div>
+          <a class="ghost-button" href="https://discord.gg/Bwfd8VYA" target="_blank" rel="noreferrer">
+            Dołącz na Discord
+          </a>
+        </nav>
+
+        <section class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Polska społeczność Counter-Strike 2</p>
+            <h1>CS2 WHISPER POLSKA</h1>
+            <p class="hero-text">
+              Serwer Discord dla graczy CS2 z aktywną społecznością, poziomami, rangami
+              i kanałem <strong>informacje</strong>, gdzie pojawiają się ważne ogłoszenia.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-button" href="https://discord.gg/Bwfd8VYA" target="_blank" rel="noreferrer">
+                Wejdź na serwer
+              </a>
+              <a class="secondary-button" href="#aktualizacje">
+                Zobacz nowości CS2
+              </a>
+            </div>
+
+            <div class="live-strip">
+              <div class="live-pill">
+                <span class="dot"></span>
+                Dane aktualizują się automatycznie
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal">
+            <div class="panel-head">
+              <span class="panel-label">Live server</span>
+              <span class="panel-state" id="server-status">Ładowanie...</span>
+            </div>
+
+            <div class="stats-grid">
+              <article class="stat-card">
+                <span class="stat-label">Członkowie</span>
+                <strong class="stat-value" id="member-count">--</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Online</span>
+                <strong class="stat-value" id="online-count">--</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Zaproszenie</span>
+                <strong class="stat-value stat-value-small">Bwfd8VYA</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Kanał info</span>
+                <strong class="stat-value stat-value-small">#informacje</strong>
+              </article>
+            </div>
+
+            <p class="panel-note" id="server-note">
+              Strona pobiera przybliżone statystyki bezpośrednio z zaproszenia Discord.
+            </p>
+          </aside>
+        </section>
+      </header>
+
+      <main>
+        <section class="section info-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Co znajdziesz na serwerze</p>
+            <h2>Informacje, progres i aktywna społeczność</h2>
+          </div>
+
+          <div class="info-grid">
+            <article class="info-card">
+              <h3>Kanał informacje</h3>
+              <p>
+                Na serwerze działa kanał <strong>informacje</strong>, gdzie trafiają ważne
+                ogłoszenia, aktualności społeczności i najważniejsze komunikaty.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>System poziomów</h3>
+              <p>
+                Społeczność zdobywa poziomy i rangi. Poniżej znajdziesz układ poziomów
+                odzwierciedlający rangi pokazane na przesłanych screenach.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Nowości Counter-Strike 2</h3>
+              <p>
+                Sekcja aktualizacji pobiera najnowsze wpisy dotyczące CS2, więc strona nie
+                wygląda martwo i cały czas pokazuje świeże informacje o grze.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section ranks-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Rangi i poziomy</p>
+            <h2>System rang społeczności</h2>
+          </div>
+
+          <div class="ranks-layout">
+            <div class="ranks-list reveal">
+              <article class="rank-card">
+                <span class="rank-level">LVL 10</span>
+                <h3>KAMIENIE</h3>
+                <span class="rank-icon">◈</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 20</span>
+                <h3>ŻELAZO</h3>
+                <span class="rank-icon">◆</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 30</span>
+                <h3>BRĄZ</h3>
+                <span class="rank-icon">🥉</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 40</span>
+                <h3>SREBRO</h3>
+                <span class="rank-icon">🥈</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 50</span>
+                <h3>ZŁOTO</h3>
+                <span class="rank-icon">🥇</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 60</span>
+                <h3>PLATYNA</h3>
+                <span class="rank-icon">🏆</span>
+              </article>
+              <article class="rank-card featured">
+                <span class="rank-level">LVL 70</span>
+                <h3>DIAMENT</h3>
+                <span class="rank-icon">💎</span>
+              </article>
+              <article class="rank-card">
+                <span class="rank-level">LVL 80</span>
+                <h3>TYTAN</h3>
+                <span class="rank-icon">🔥</span>
+              </article>
+              <article class="rank-card mythic">
+                <span class="rank-level">LVL 90</span>
+                <h3>MITYCZNY</h3>
+                <span class="rank-icon">⚡</span>
+              </article>
+            </div>
+
+            <aside class="boss-rank reveal">
+              <p class="boss-label">Ranga specjalna</p>
+              <div class="boss-card">
+                <span class="boss-level">LVL 100</span>
+                <h3>NIEPRZYGODOWANY</h3>
+                <p>
+                  Najwyższy poziom pokazany na screenie. Wyróżniona ranga dla najbardziej
+                  zaangażowanych osób na serwerze.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section updates-section" id="aktualizacje">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Counter-Strike 2</p>
+            <h2>Aktualizacje gry</h2>
+            <p class="section-subtitle">
+              Ostatnie wpisy pobierane automatycznie z newsów Steam dla Counter-Strike 2.
+            </p>
+          </div>
+
+          <div class="updates-grid" id="updates-grid">
+            <article class="update-card loading-card">
+              <span class="update-tag">Trwa ładowanie</span>
+              <h3>Pobieram najnowsze informacje o Counter-Strike 2...</h3>
+              <p>Za chwilę pojawią się tutaj ostatnie aktualizacje gry.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
