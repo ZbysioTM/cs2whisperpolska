@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-03-11T19:53:46.398859+00:00",
+  "generated_at": "2026-03-12T05:08:19.750798+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\The Dead Hand Collection is now available, featuring 17 finishes from community contributors, and including 22 all-new gloves as rare special items.Access items in the Dead Hand Collection via the Dead Hand Terminal, av",
+      "date": "11.03.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591189",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "The Dead Hand",
+      "body": "Today we're introducing the Dead Hand Collection, featuring 17 finishes from community contributors and 22 all-new gloves as rare special items. https://clan.fastly.steamstatic.com/images/3381077/55ed2cb8da5c61796d087c29",
+      "date": "11.03.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591187",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "\\Starting today, items listed for sale on Steam Community Market will remain in your inventory for use while they are listed (e.g., your weapon can be equipped in your loadout while it is listed). While listed, items can",
       "date": "04.03.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059919569",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\Added Instance.SetSaveDataAdded Instance.GetSaveDataWorkshop maps can write up to 1MB of save data.Workshop saves leverage Steam Cloud and persist across installs.Save data size limit can be configured with sv_workshop_",
-      "date": "25.02.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806706141",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\Mitigated a performance issue that primarily affected Windows 10 users with recent Intel CPUs.Fixed a case where the Delete Item inventory option wasn't working.Fixed a case of visual corruption using iron sights on AMD",
-      "date": "23.02.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633195926",
       "tag": "CS2 Update"
     }
   ]
