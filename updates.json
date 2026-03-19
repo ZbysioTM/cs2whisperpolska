@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-03-18T19:56:07.289787+00:00",
+  "generated_at": "2026-03-19T05:16:50.733929+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Reloading has been refactored to encourage more careful consideration of the use of ammo. When you reload a magazine-fed weapon, all remaining ammo in the magazine is discarded and a new, full magazine is taken from the ",
+      "date": "18.03.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365751572",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Guns, Guides, and Games",
+      "body": "From reloading to custom games, today's update will give you plenty to think about. Reloadhttps://clan.akamai.steamstatic.com/images/3381077/5dd914dd4a8901aa52b0075f683a6d0e3538d55b.png When you reload in CS2, the leftov",
+      "date": "18.03.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365751571",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "\\Players in Germany and Netherlands will have an X-Ray Scanner tab in their Inventory. For those players, containers can only be opened via X-ray Scanner. The X-Ray Scanner will come preloaded with a one-time exclusive n",
       "date": "16.03.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588602521",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\The Dead Hand Collection is now available, featuring 17 finishes from community contributors, and including 22 all-new gloves as rare special items.Access items in the Dead Hand Collection via the Dead Hand Terminal, av",
-      "date": "11.03.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591189",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "The Dead Hand",
-      "body": "Today we're introducing the Dead Hand Collection, featuring 17 finishes from community contributors and 22 all-new gloves as rare special items. https://clan.fastly.steamstatic.com/images/3381077/55ed2cb8da5c61796d087c29",
-      "date": "11.03.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588591187",
       "tag": "CS2 Update"
     }
   ]
