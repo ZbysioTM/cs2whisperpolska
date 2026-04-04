@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-04T14:04:25.007623+00:00",
+  "generated_at": "2026-04-04T19:45:51.756382+00:00",
   "items": [
-    {
-      "title": "Animgraph 2 Beta",
-      "body": "https://clan.akamai.steamstatic.com/images/3381077/3b774ae067b0a4fb8b71d41fdde8d073ac5a064c.png Today we're shipping a beta build that updates CS2's animation system to Animgraph 2, which reduces the CPU and networking c",
-      "date": "01.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815556044",
-      "tag": "CS2 Update"
-    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "The following changes are available in the animgraph_2_beta build. To opt into the beta build, follow the instructions here: https://help.steampowered.com/en/faqs/view/5A86-0DF4-C59E-8C4ATo report bugs or provide feedbac",
       "date": "01.04.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815556043",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Animgraph 2 Beta",
+      "body": "https://clan.akamai.steamstatic.com/images/3381077/3b774ae067b0a4fb8b71d41fdde8d073ac5a064c.png Today we're shipping a beta build that updates CS2's animation system to Animgraph 2, which reduces the CPU and networking c",
+      "date": "01.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815556044",
       "tag": "CS2 Update"
     },
     {
