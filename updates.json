@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-09T19:15:22.734598+00:00",
+  "generated_at": "2026-04-10T03:17:30.035900+00:00",
   "items": [
     {
-      "title": "Animgraph 2 Beta",
-      "body": "https://clan.akamai.steamstatic.com/images/3381077/3b774ae067b0a4fb8b71d41fdde8d073ac5a064c.png Today we're shipping a beta build that updates CS2's animation system to Animgraph 2, which reduces the CPU and networking c",
-      "date": "01.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815556044",
+      "title": "Animgraph 2 Beta Update",
+      "body": "The following changes are available in the animgraph_2_beta build. To opt into the beta build, follow the instructions here: https://help.steampowered.com/en/faqs/view/5A86-0DF4-C59E-8C4ATo report bugs or provide feedbac",
+      "date": "09.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821308514",
       "tag": "CS2 Update"
     },
     {
@@ -16,10 +16,10 @@
       "tag": "CS2 Update"
     },
     {
-      "title": "Counter-Strike 2 Update",
-      "body": "Reloading has been refactored to encourage more careful consideration of the use of ammo. When you reload a magazine-fed weapon, all remaining ammo in the magazine is discarded and a new, full magazine is taken from the ",
-      "date": "18.03.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365751572",
+      "title": "Animgraph 2 Beta",
+      "body": "https://clan.akamai.steamstatic.com/images/3381077/3b774ae067b0a4fb8b71d41fdde8d073ac5a064c.png Today we're shipping a beta build that updates CS2's animation system to Animgraph 2, which reduces the CPU and networking c",
+      "date": "01.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815556044",
       "tag": "CS2 Update"
     }
   ]
