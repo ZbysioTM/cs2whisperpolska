@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-04-20T19:13:48.620936+00:00",
+  "generated_at": "2026-04-21T03:19:28.699316+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Fixed a bug that removed the delay between burst fire bullets.",
+      "date": "21.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047267453",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "All changes from the animgraph_2_beta build are now live.\\Minor adjustments to viewmodel animations.Adjusted general weapon deploy animation logic.Fixed issues with transitioning between knife attacks.Fixed Elites not sh",
+      "date": "20.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047267301",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "The following changes are available in the animgraph_2_beta build. To opt into the beta build, follow the instructions here: https://help.steampowered.com/en/faqs/view/5A86-0DF4-C59E-8C4ATo report bugs or provide feedbac",
       "date": "17.04.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047261361",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "The following changes are available in the animgraph_2_beta build. To opt into the beta build, follow the instructions here: https://help.steampowered.com/en/faqs/view/5A86-0DF4-C59E-8C4ATo report bugs or provide feedbac",
-      "date": "14.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047252212",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Animgraph 2 Beta Update",
-      "body": "The following changes are available in the animgraph_2_beta build. To opt into the beta build, follow the instructions here: https://help.steampowered.com/en/faqs/view/5A86-0DF4-C59E-8C4ATo report bugs or provide feedbac",
-      "date": "09.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821308514",
       "tag": "CS2 Update"
     }
   ]
