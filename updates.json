@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-04-24T19:00:59.178746+00:00",
+  "generated_at": "2026-04-25T02:52:31.161011+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Fixed XM1014 shells flickering when starting a reload.Fixed bugs with dual berettas in first person and in spectator mode.Fixed inspect/cancel causing multiple worldmodel deploys.Fixed a bug where players can get stuck ",
+      "date": "24.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770237569",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "\\Adjusted ground smoothing at locations where the player can stand on very thin ledges.\\Minor adjustments to viewmodel animations.\\Corrected some improper character texture assignments.Trade offers containing Counter-Str",
@@ -13,13 +20,6 @@
       "body": "\\Adjusted camera motion due to recoil to match CS:GO more closely. Bullet trajectories should continue to match CS2.Players will now experience the full camera motion due to external sources of aim punch (e.g. getting sh",
       "date": "21.04.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770229332",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\Fixed a bug that removed the delay between burst fire bullets.",
-      "date": "21.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047267453",
       "tag": "CS2 Update"
     }
   ]
