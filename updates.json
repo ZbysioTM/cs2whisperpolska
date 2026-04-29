@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-04-28T19:47:34.993205+00:00",
+  "generated_at": "2026-04-29T03:37:18.365331+00:00",
   "items": [
+    {
+      "title": "The Return Of Cache",
+      "body": "Today's update features the return of a classic. Welcome back, Cache! Cache veterans will feel right at home in familiar locations, while new players can quickly learn the ins and outs of a classic three lane map that re",
+      "date": "28.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155563524",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\CacheAdded Cache to Competitive, Casual, Deathmatch, and Retakes modes.Dust IIUncovered Mid Box (Xbox) to reveal a previously hidden jump spot. On purpose this time.OfficeEnabled collision on tarp on boxes used around C",
+      "date": "28.04.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155563523",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "\\Fixed XM1014 shells flickering when starting a reload.Fixed bugs with dual berettas in first person and in spectator mode.Fixed inspect/cancel causing multiple worldmodel deploys.Fixed a bug where players can get stuck ",
       "date": "24.04.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770237569",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\Adjusted ground smoothing at locations where the player can stand on very thin ledges.\\Minor adjustments to viewmodel animations.\\Corrected some improper character texture assignments.Trade offers containing Counter-Str",
-      "date": "22.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770231786",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\Adjusted camera motion due to recoil to match CS:GO more closely. Bullet trajectories should continue to match CS2.Players will now experience the full camera motion due to external sources of aim punch (e.g. getting sh",
-      "date": "21.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770229332",
       "tag": "CS2 Update"
     }
   ]
