@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-14T19:51:36.782620+00:00",
+  "generated_at": "2026-05-15T03:54:32.650804+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\CacheFixed various holes in mapFixed surfacetypes for various materials.Added grating to some windows to make them block bullets.Tweaks to player and grenade clipping.\\Fixed a case where it was possible to cancel a gren",
+      "date": "14.05.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592790456",
+      "tag": "CS2 Update"
+    },
     {
       "title": "NIGHTMODE II Music Kits",
       "body": "https://clan.akamai.steamstatic.com/images/3381077/6cfbf7066cc7fdedd3fc9cfd3a46a131d195d4ac.png Today we are releasing six new music kits with NIGHTMODE Records. NIGHTMODE II Music Kits are now available in the STORE tab",
@@ -13,13 +20,6 @@
       "body": "\\CacheFixed various holes in map.Simplified grenade clipping in various areas.Fixed sounds and surfacetypes for various materials.Orange wire spool at Sandbags has been exchanged for white wire.\\NIGHTMODE II Music Kits a",
       "date": "07.05.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502813482",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\CacheMap-wide clipping fixes and geometry polish.Fixed some spots where bomb would be unreachable when dropped.Fixed dynamic shadows breaking in some spots.Fixed some surface sound types.\\Fixed hand popping when counter",
-      "date": "30.04.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155569878",
       "tag": "CS2 Update"
     }
   ]
