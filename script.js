@@ -1,5 +1,6 @@
-﻿const DISCORD_INVITE_CODE = "Bwfd8VYA";
-const DISCORD_INVITE_URL = `https://discord.com/api/v9/invites/${DISCORD_INVITE_CODE}?with_counts=true&with_expiration=true`;
+const DISCORD_INVITE_URL_VALUE = "https://discord.gg/MGU3qsyBDB";
+const DISCORD_INVITE_CODE = DISCORD_INVITE_URL_VALUE.split("/").pop();
+const DISCORD_INVITE_URL = `https://discord.com/api/v10/invites/${DISCORD_INVITE_CODE}?with_counts=true&with_expiration=true`;
 const LOCAL_UPDATES_URL = "./updates.json";
 
 const fallbackUpdates = [
@@ -71,8 +72,8 @@ async function loadDiscordStats() {
     const members = data.approximate_member_count;
     const online = data.approximate_presence_count;
 
-    memberCountElement.textContent = members ? members.toLocaleString("pl-PL") : "--";
-    onlineCountElement.textContent = online ? online.toLocaleString("pl-PL") : "--";
+    memberCountElement.textContent = Number.isFinite(members) ? members.toLocaleString("pl-PL") : "--";
+    onlineCountElement.textContent = Number.isFinite(online) ? online.toLocaleString("pl-PL") : "--";
     serverStatusElement.textContent = guildName;
     serverNoteElement.textContent =
       "Statystyki sa pobierane automatycznie z aktywnego zaproszenia Discord i odswiezaja sie przy kazdym wejsciu na strone.";
