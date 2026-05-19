@@ -195,10 +195,12 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.7rem, 6vw, 5.4rem);
-  line-height: 0.96;
+  font-size: clamp(2.2rem, 4.6vw, 4.7rem);
+  line-height: 1;
   text-transform: uppercase;
-  max-width: 10ch;
+  max-width: none;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
 }
 
 .hero-text,
@@ -350,10 +352,60 @@ h1 {
 }
 
 .ranks-layout {
+  margin-top: 24px;
+}
+
+.server-guide-layout {
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
   margin-top: 24px;
+}
+
+.guide-panel {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 28px;
+  background: var(--panel);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow);
+}
+
+.guide-panel h3 {
+  margin-top: 10px;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+.guide-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.guide-item {
+  padding: 18px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.guide-item:hover {
+  transform: translateY(-4px);
+}
+
+.guide-item strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Oxanium", sans-serif;
+  color: var(--text);
+  font-size: 1.02rem;
+}
+
+.guide-item p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .ranks-list {
@@ -368,6 +420,96 @@ h1 {
   padding: 22px;
   border-radius: 24px;
   transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.rank-egg {
+  border-color: rgba(240, 220, 176, 0.34);
+  background:
+    radial-gradient(circle at top left, rgba(255, 241, 210, 0.16), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(214, 184, 130, 0.22), transparent 36%),
+    linear-gradient(180deg, rgba(36, 29, 22, 0.96), rgba(11, 16, 26, 0.92));
+}
+
+.rank-wood {
+  border-color: rgba(113, 201, 116, 0.32);
+  background:
+    radial-gradient(circle at top left, rgba(140, 217, 140, 0.14), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(97, 182, 98, 0.2), transparent 36%),
+    linear-gradient(180deg, rgba(20, 36, 22, 0.96), rgba(8, 17, 28, 0.92));
+}
+
+.rank-stone {
+  border-color: rgba(150, 160, 172, 0.34);
+  background:
+    radial-gradient(circle at top left, rgba(144, 154, 166, 0.14), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(124, 132, 146, 0.24), transparent 36%),
+    linear-gradient(180deg, rgba(26, 31, 40, 0.97), rgba(10, 16, 27, 0.92));
+}
+
+.rank-iron {
+  border-color: rgba(192, 201, 210, 0.34);
+  background:
+    radial-gradient(circle at top left, rgba(198, 206, 214, 0.12), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(186, 195, 204, 0.22), transparent 36%),
+    linear-gradient(180deg, rgba(24, 30, 40, 0.97), rgba(9, 17, 30, 0.92));
+}
+
+.rank-bronze {
+  border-color: rgba(195, 125, 82, 0.3);
+  background:
+    radial-gradient(circle at bottom right, rgba(201, 124, 66, 0.18), transparent 36%),
+    linear-gradient(180deg, rgba(34, 23, 23, 0.95), rgba(12, 15, 24, 0.92));
+}
+
+.rank-silver {
+  border-color: rgba(212, 222, 236, 0.38);
+  background:
+    radial-gradient(circle at top left, rgba(219, 228, 239, 0.14), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(194, 208, 226, 0.24), transparent 36%),
+    linear-gradient(180deg, rgba(22, 29, 43, 0.97), rgba(8, 16, 29, 0.92));
+}
+
+.rank-gold {
+  border-color: rgba(255, 209, 102, 0.3);
+  background:
+    radial-gradient(circle at bottom right, rgba(255, 190, 72, 0.18), transparent 35%),
+    linear-gradient(180deg, rgba(34, 25, 16, 0.95), rgba(12, 15, 23, 0.92));
+}
+
+.rank-platinum {
+  border-color: rgba(131, 238, 214, 0.28);
+  background:
+    radial-gradient(circle at bottom right, rgba(104, 222, 199, 0.2), transparent 35%),
+    linear-gradient(180deg, rgba(13, 29, 31, 0.95), rgba(8, 17, 28, 0.92));
+}
+
+.rank-diamond {
+  border-color: rgba(94, 181, 255, 0.34);
+  background:
+    radial-gradient(circle at bottom right, rgba(86, 174, 255, 0.22), transparent 36%),
+    linear-gradient(180deg, rgba(18, 39, 70, 0.96), rgba(9, 19, 34, 0.92));
+}
+
+.rank-titan {
+  border-color: rgba(255, 134, 85, 0.28);
+  background:
+    radial-gradient(circle at bottom right, rgba(255, 120, 77, 0.2), transparent 36%),
+    linear-gradient(180deg, rgba(31, 22, 24, 0.95), rgba(9, 16, 28, 0.92));
+}
+
+.rank-mythic {
+  border-color: rgba(255, 167, 69, 0.34);
+  background:
+    radial-gradient(circle at bottom right, rgba(255, 145, 72, 0.22), transparent 36%),
+    linear-gradient(180deg, rgba(70, 40, 22, 0.94), rgba(20, 14, 20, 0.92));
+}
+
+.rank-special {
+  border-color: rgba(214, 214, 222, 0.3);
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(172, 172, 190, 0.18), transparent 36%),
+    linear-gradient(180deg, rgba(44, 43, 58, 0.96), rgba(14, 16, 27, 0.94));
 }
 
 .rank-card::after {
@@ -399,6 +541,114 @@ h1 {
   font-size: 1.4rem;
 }
 
+.rank-egg h3,
+.rank-egg .rank-icon {
+  color: #f3dbc0;
+}
+
+.rank-egg .rank-level {
+  color: #ffe6bf;
+}
+
+.rank-wood h3,
+.rank-wood .rank-icon {
+  color: #83d86d;
+}
+
+.rank-wood .rank-level {
+  color: #9bef87;
+}
+
+.rank-stone h3,
+.rank-stone .rank-icon {
+  color: #aab6c5;
+}
+
+.rank-stone .rank-level {
+  color: #c4d0dc;
+}
+
+.rank-iron h3,
+.rank-iron .rank-icon {
+  color: #58b9ff;
+}
+
+.rank-iron .rank-level {
+  color: #7cd0ff;
+}
+
+.rank-bronze h3,
+.rank-bronze .rank-icon {
+  color: #c67d52;
+}
+
+.rank-bronze .rank-level {
+  color: #de976d;
+}
+
+.rank-silver h3,
+.rank-silver .rank-icon {
+  color: #cfd7e2;
+}
+
+.rank-silver .rank-level {
+  color: #e4eaf2;
+}
+
+.rank-gold h3,
+.rank-gold .rank-icon {
+  color: #f5c653;
+}
+
+.rank-gold .rank-level {
+  color: #ffd76e;
+}
+
+.rank-platinum h3,
+.rank-platinum .rank-icon {
+  color: #ffd85d;
+}
+
+.rank-platinum .rank-level {
+  color: #ffe482;
+}
+
+.rank-diamond h3,
+.rank-diamond .rank-icon {
+  color: #58b9ff;
+}
+
+.rank-diamond .rank-level {
+  color: #7cd0ff;
+}
+
+.rank-titan h3,
+.rank-titan .rank-icon {
+  color: #9e8777;
+}
+
+.rank-titan .rank-level {
+  color: #c3a892;
+}
+
+.rank-mythic h3,
+.rank-mythic .rank-icon {
+  color: #f3d7a0;
+}
+
+.rank-mythic .rank-level {
+  color: #ffd37b;
+}
+
+.rank-special h3,
+.rank-special .rank-icon {
+  color: #f1f3f7;
+}
+
+.rank-special .rank-level {
+  color: #d5dae4;
+}
+
 .featured {
   border-color: rgba(135, 243, 255, 0.28);
   background: linear-gradient(180deg, rgba(20, 38, 67, 0.95), rgba(7, 17, 31, 0.9));
@@ -407,31 +657,6 @@ h1 {
 .mythic {
   border-color: rgba(255, 209, 102, 0.3);
   background: linear-gradient(180deg, rgba(68, 36, 19, 0.92), rgba(17, 12, 16, 0.92));
-}
-
-.boss-card {
-  height: 100%;
-  border-radius: 28px;
-  padding: 28px;
-  background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.08), transparent 40%),
-    linear-gradient(180deg, rgba(29, 27, 45, 0.95), rgba(10, 13, 24, 0.94));
-}
-
-.boss-level {
-  display: inline-flex;
-  margin-bottom: 10px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid var(--line);
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
-.boss-card h3 {
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  margin-bottom: 12px;
 }
 
 .updates-header-grid {
@@ -542,8 +767,8 @@ h1 {
 
 @media (max-width: 1100px) {
   .hero-grid,
-  .ranks-layout,
-  .info-grid {
+  .info-grid,
+  .server-guide-layout {
     grid-template-columns: 1fr;
   }
 
@@ -565,8 +790,8 @@ h1 {
   .hero-copy,
   .hero-panel,
   .info-card,
+  .guide-panel,
   .update-card,
-  .boss-card,
   .rank-card,
   .updates-intro {
     padding: 22px;
@@ -593,6 +818,11 @@ h1 {
   .update-card h3 {
     max-width: none;
     font-size: 1.35rem;
+  }
+
+  h1 {
+    max-width: 10ch;
+    line-height: 0.96;
   }
 
   .update-card p,
