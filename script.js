@@ -2,6 +2,8 @@ const DISCORD_INVITE_URL_VALUE = "https://discord.gg/MGU3qsyBDB";
 const DISCORD_INVITE_CODE = DISCORD_INVITE_URL_VALUE.split("/").pop();
 const DISCORD_INVITE_URL = `https://discord.com/api/v10/invites/${DISCORD_INVITE_CODE}?with_counts=true&with_expiration=true`;
 const LOCAL_UPDATES_URL = "./updates.json";
+const STEAM_UPDATES_URL = "https://store.steampowered.com/news/app/730";
+const UPDATES_REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 
 const fallbackUpdates = [
   {
@@ -32,6 +34,7 @@ const onlineCountElement = document.getElementById("online-count");
 const serverStatusElement = document.getElementById("server-status");
 const serverNoteElement = document.getElementById("server-note");
 const updatesGridElement = document.getElementById("updates-grid");
+const updatesFeedStatusElement = document.getElementById("updates-feed-status");
 
 function stripHtml(value) {
   const temp = document.createElement("div");
@@ -42,10 +45,15 @@ function stripHtml(value) {
 
 function normalizeUpdateText(value) {
   const cleaned = stripHtml(value)
+    .replace(/https?:\/\/\S+/gi, " ")
     .replace(/\\/g, " ")
     .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .replace(/([.?!:;])([A-Za-z0-9])/g, "$1 $2")
     .replace(/\.(?=[A-Za-z0-9])/g, ". ")
     .replace(/,(?=[A-Za-z0-9])/g, ", ")
+    .replace(/(Fixed|Added|Improved|Updated|Changed|Removed|Tweaked|Release Notes)/g, ". $1")
+    .replace(/\s*\.\s*\./g, ". ")
+    .replace(/\s+\.\s+/g, ". ")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -54,10 +62,50 @@ function normalizeUpdateText(value) {
   }
 
   const sentences = cleaned.match(/[^.!?]+[.!?]?/g) || [cleaned];
-  const shortText = sentences.slice(0, 3).join(" ").trim();
+  const shortText = sentences.slice(0, 5).join(" ").trim();
   const result = shortText || cleaned;
 
-  return result.length > 320 ? `${result.slice(0, 317).trim()}...` : result;
+  return result.length > 520 ? `${result.slice(0, 517).trim()}...` : result;
+}
+
+function formatGeneratedDate(value) {
+  if (!value) {
+    return "Brak danych";
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "Brak danych";
+  }
+
+  return date.toLocaleString("pl-PL", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function renderUpdatesOverview(items, generatedAt) {
+  if (!updatesFeedStatusElement) {
+    return;
+  }
+
+  const totalItems = items.length;
+  const latestItem = items[0];
+  const latestTitle = latestItem?.title || "Brak aktualizacji";
+  const latestDate = latestItem?.date || "Brak daty";
+  const refreshedAt = formatGeneratedDate(generatedAt);
+
+  updatesFeedStatusElement.innerHTML = `
+    <span class="update-tag">Status feedu</span>
+    <h3>${totalItems} ostatnie ${totalItems === 1 ? "wydanie" : "wpisy"} w sekcji</h3>
+    <p>
+      Ostatnie odswiezenie: <strong>${refreshedAt}</strong>.<br />
+      Najnowszy wpis: <strong>${latestTitle}</strong> z dnia <strong>${latestDate}</strong>.
+    </p>
+  `;
 }
 
 async function loadDiscordStats() {
@@ -93,7 +141,7 @@ function renderUpdates(items) {
       const title = item.title || "Aktualizacja Counter-Strike 2";
       const body = normalizeUpdateText(item.body || item.contents || "");
       const date = item.date || "Brak daty";
-      const link = item.url || "https://store.steampowered.com/news/app/730";
+      const link = STEAM_UPDATES_URL;
       const tag = item.tag || "CS2 Update";
       const priorityClass = index === 0 ? "update-card priority" : "update-card";
 
@@ -121,15 +169,19 @@ async function loadCs2Updates() {
 
     const data = await response.json();
     const items = Array.isArray(data.items) ? data.items : [];
+    const generatedAt = data.generated_at || "";
 
     if (!items.length) {
+      renderUpdatesOverview(fallbackUpdates, generatedAt);
       renderUpdates(fallbackUpdates);
       return;
     }
 
+    renderUpdatesOverview(items, generatedAt);
     renderUpdates(items);
   } catch (error) {
     console.error("Local updates error:", error);
+    renderUpdatesOverview(fallbackUpdates, "");
     renderUpdates(fallbackUpdates);
   }
 }
@@ -156,3 +208,4 @@ function initRevealAnimations() {
 initRevealAnimations();
 loadDiscordStats();
 loadCs2Updates();
+setInterval(loadCs2Updates, UPDATES_REFRESH_INTERVAL_MS);
