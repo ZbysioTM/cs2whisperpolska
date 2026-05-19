@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-05-18T19:49:24.881301+00:00",
+  "generated_at": "2026-05-19T04:00:55.932083+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "\\Fixed a case of post-processing glitch when switching spectator targets on maps with different post-processing volumes.Fixed a case of stuck x-ray silhouettes when switching spectator targets.Fixed spectator damage over",
+      "date": "18.05.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592799760",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "\\CacheFixed various holes in mapFixed surfacetypes for various materials.Added grating to some windows to make them block bullets.Tweaks to player and grenade clipping.\\Fixed a case where it was possible to cancel a gren",
@@ -13,13 +20,6 @@
       "body": "https://clan.akamai.steamstatic.com/images/3381077/6cfbf7066cc7fdedd3fc9cfd3a46a131d195d4ac.png Today we are releasing six new music kits with NIGHTMODE Records. NIGHTMODE II Music Kits are now available in the STORE tab",
       "date": "07.05.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502813483",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "\\CacheFixed various holes in map.Simplified grenade clipping in various areas.Fixed sounds and surfacetypes for various materials.Orange wire spool at Sandbags has been exchanged for white wire.\\NIGHTMODE II Music Kits a",
-      "date": "07.05.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502813482",
       "tag": "CS2 Update"
     }
   ]
