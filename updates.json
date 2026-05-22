@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-21T23:04:49.240122+00:00",
+  "generated_at": "2026-05-22T03:52:56.952913+00:00",
   "items": [
+    {
+      "title": "IEM Cologne 2026",
+      "body": "The IEM Cologne 2026 Major is fast approaching. Teams are making final adjustments, fine-tuning their strats, and crossing their fingers that they won't face Vitality until the Grand Final. That can only mean one thing: Tournament Items featuring Teams and Player Autographs are now available for purchase! The 2026 Cologne Major Shop The Major Shop has undergone some major renovation--now you can directly get any sticker you want (at prices set by demand). Holo Furia logo? You got it. Foil Donk autograph? No problem. You can purchase tokens and redeem them for any sticker you want. The prices of stickers will depend on relative demand (when lots of players buy a particular sticker, its price",
+      "date": "22.05.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "The IEM Cologne 2026 Major Hub is now available. Visit the hub to purchase tournament items, play the Pick'Em Challenge and more. Purchase a Cologne 2026 Viewer Pass to receive an upgradable Cologne 2026 Coin. With an active pass, you can upgrade your coin and earn rewards by playing the Pick'Em Challenge. Additionally, you will show up on the Active Pass Leaderboard where you can compare your Pick'Em Challenge performance to your friends.. Fixed a case of incorrect scoreboard timeline presentation in overtime. Fixed weapon entities disallowing pickup from showing pick up weapon hint text. Increased spectator in-eye flash amount. Souvenir quality items can now be selected in Trade Up",
+      "date": "22.05.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Cache Adjusted player and grenade collision. Adjusted material blending to improve accuracy of footstep sounds. Fixed several gaps reported by players. Ancient. Fixed a gap in the wall",
@@ -19,20 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Cache. Fixed various holes in map. Fixed surfacetypes for various materials. Added grating to some windows to make them block bullets. Tweaks to player and grenade clipping.. Fixed a case where it was possible to cancel a grenade throw after the throw was started near the end of the pin pull animation. Miscellaneous stability improvements.. Fixed bug that prevented the asset in use from being selected when model browser was opened. Fixed bug with layered materials with same surface property on all layers.. Added roundmvpanthem_02 for all NIGHTMODE II music kits which plays at 1: 5 ratio",
       "date": "14.05.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "NIGHTMODE II Music Kits",
-      "body": "Today we are releasing six new music kits with NIGHTMODE Records. NIGHTMODE II Music Kits are now available in the STORE tab, featuring: ALRT, DOPAMINE HIT Altare, Change My Mind borne, Give It To Me Pirapus, EVERYNITE Repiet & Julia Kleijn, On And On Shock One, Voices Alongside new music kits, we've continued updating Cache and made other miscellaneous fixes. Release Notes for today's update can be found here",
-      "date": "07.05.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Cache. Fixed various holes in map. Simplified grenade clipping in various areas. Fixed sounds and surfacetypes for various materials. Orange wire spool at Sandbags has been exchanged for white wire. NIGHTMODE II Music Kits are now available for purchase in standard and Stat Trak versions through the STORE tab.. Fixed progressive refinement rendering Source Film Maker. User Viewmodel FOV now correctly networks to remote clients. Adjusted player model occlusion bounds. Fixed ragdolls missing death velocity when shot in specific body locations. Minor adjustments to ground smoothing transitions when leaving the ground and when landing. Fixed a case where post-processing transitions weren't",
-      "date": "07.05.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
