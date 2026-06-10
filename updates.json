@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-06-10T20:32:59.693518+00:00",
+  "generated_at": "2026-06-10T23:26:35.174573+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Added display of lowest and highest sticker price in the last 7 days in the Cologne 2026 Major Shop. Added stickers showcase to the Cologne 2026 Major Hub tile on the main menu.. Added multi-select functionality in Storage Units deposit/retrieve UI. Added appropriate error message when user's inventory is full and they try to redeem Weekly Care Package rewards, Armory items, or items in the Major Shop cart. Fixed number wrapping rules in some languages",
+      "date": "10.06.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Added ability to bookmark stickers in Cologne 2026 Shop.. Added convar r_spectator_flashbang_opacity to control flashbang opacity for remote spectators. Flashbang effect for remote spectators now renders underneath the HUD. Stability improvements. Ancient. Updated clipping to prevent certain boost locations Sanctum. Updated to the latest version from Steam Workshop (Update Notes)",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Cache Adjusted player and grenade collision. Adjusted material blending to improve accuracy of footstep sounds. Fixed several gaps reported by players. Ancient. Fixed a gap in the wall",
       "date": "20.05.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Fixed a case of post-processing glitch when switching spectator targets on maps with different post-processing volumes. Fixed a case of stuck x-ray silhouettes when switching spectator targets. Fixed spectator damage overlay effect.. Added weapon_accuracy_stack_boost_limit (default value \"2\") to apply ladder inaccuracy to players boosted by a stack of this many or more players. Adjustments to AWP draw to idle animation transition. Improved consistency of grenade jump throws and the accuracy of the jump throw preview camera. Cache Adjusted model for window covers to show collision / decals when shot. Adjustments to player clipping and grenade clipping around windows, window covers, and vent",
-      "date": "18.05.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
