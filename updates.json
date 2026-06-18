@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-06-17T22:01:47.878195+00:00",
+  "generated_at": "2026-06-18T04:11:02.941461+00:00",
   "items": [
+    {
+      "title": "Playoffs at the \"Cathedral of Counter-Strike\"",
+      "body": "Playoffs at the IEM Cologne 2026 Major begin tomorrow and the \"Cathedral of Counter-Strike\" awaits. For the second consecutive Major, FURIA and Team Spirit finished Stage III with perfect 3-0 records. Aurora, Falcons, and Vitality finished 3-1, and 9z Team, Bet Boom, and G2 Esports advanced with 3-2 records. The Lanxess Arena will host the Playoffs, beginning with Thursday's Quarterfinals matchups: 9z Team vs. FURIA Aurora vs. Bet Boom The second set of Quarterfinals takes place Friday, featuring: G2 Esports vs. Team Spirit Falcons vs. Vitality With Semifinals on Saturday and the Grand Finals on Sunday, we're in for a great weekend of Counter-Strike. As the Playoffs approach, there's still",
+      "date": "17.06.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Added display of lowest and highest sticker price in the last 7 days in the Cologne 2026 Major Shop. Added stickers showcase to the Cologne 2026 Major Hub tile on the main menu.. Added multi-select functionality in Storage Units deposit/retrieve UI. Added appropriate error message when user's inventory is full and they try to redeem Weekly Care Package rewards, Armory items, or items in the Major Shop cart. Fixed number wrapping rules in some languages",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "The IEM Cologne 2026 Major Hub is now available. Visit the hub to purchase tournament items, play the Pick'Em Challenge and more. Purchase a Cologne 2026 Viewer Pass to receive an upgradable Cologne 2026 Coin. With an active pass, you can upgrade your coin and earn rewards by playing the Pick'Em Challenge. Additionally, you will show up on the Active Pass Leaderboard where you can compare your Pick'Em Challenge performance to your friends.. Fixed a case of incorrect scoreboard timeline presentation in overtime. Fixed weapon entities disallowing pickup from showing pick up weapon hint text. Increased spectator in-eye flash amount. Souvenir quality items can now be selected in Trade Up",
       "date": "22.05.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Cache Adjusted player and grenade collision. Adjusted material blending to improve accuracy of footstep sounds. Fixed several gaps reported by players. Ancient. Fixed a gap in the wall",
-      "date": "20.05.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
