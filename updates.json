@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-07-03T19:25:10.392876+00:00",
+  "generated_at": "2026-07-03T21:08:54.508852+00:00",
   "items": [
+    {
+      "title": "The Jackass Sticker Capsule",
+      "body": "Today we’re excited to release the Jackass Sticker Capsule in association with Paramount Games Studio, Jackass graphic artist Andy Jenkins, and community artist The Danidem. Celebrating the release of jackass: best and last, the Jackass Sticker Capsule contains 39 stickers referencing iconic Jackass moments. Whether it’s an airhorn on a golf course or a trip down Electric Avenue, there’s something for every jackass in here; even you!",
+      "date": "03.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Team Falcons' Finale",
       "body": "on the toughest Playoff bracket in Major history, the Falcons made a triumphant statement at the IEM Cologne 2026 Major. Facing the defending Major Champions in the Quarterfinals, Falcons defeated Vitality 2-1, with each map taking 24 rounds to determine a winner. The Semifinals weren't any easier, where the Falcons met Team Spirit in a best of three that saw two maps go to Overtime. In the end, the Falcons outlasted Team Spirit 16: 12 on Dust II, taking the series 2-1 and booking their first appearance in the Grand Finals. In the Grand Finals the Falcons left no doubt, defeating FURIA 3-0 to claim the organization's first Major Championship. To celebrate the closing of the Cologne Major,",
@@ -26,13 +33,6 @@
       "title": "Playoffs at the \"Cathedral of Counter-Strike\"",
       "body": "Playoffs at the IEM Cologne 2026 Major begin tomorrow and the \"Cathedral of Counter-Strike\" awaits. For the second consecutive Major, FURIA and Team Spirit finished Stage III with perfect 3-0 records. Aurora, Falcons, and Vitality finished 3-1, and 9z Team, Bet Boom, and G2 Esports advanced with 3-2 records. The Lanxess Arena will host the Playoffs, beginning with Thursday's Quarterfinals matchups: 9z Team vs. FURIA Aurora vs. Bet Boom The second set of Quarterfinals takes place Friday, featuring: G2 Esports vs. Team Spirit Falcons vs. Vitality With Semifinals on Saturday and the Grand Finals on Sunday, we're in for a great weekend of Counter-Strike. As the Playoffs approach, there's still",
       "date": "17.06.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Added display of lowest and highest sticker price in the last 7 days in the Cologne 2026 Major Shop. Added stickers showcase to the Cologne 2026 Major Hub tile on the main menu.. Added multi-select functionality in Storage Units deposit/retrieve UI. Added appropriate error message when user's inventory is full and they try to redeem Weekly Care Package rewards, Armory items, or items in the Major Shop cart. Fixed number wrapping rules in some languages",
-      "date": "10.06.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
