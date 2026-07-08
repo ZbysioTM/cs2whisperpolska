@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-08T21:09:03.724077+00:00",
+  "generated_at": "2026-07-08T23:09:32.102554+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Premier Season Five has begun. Added Cache to the Active Duty Map Pool. Removed Overpass from the Active Duty Map Pool. Re-designed effective range and extent of C4 explosion damage on all official defusal-mode maps. Damage is now applied according to precomputed simulation values, baked into the compiled map. Explosion shockwave damage now rapidly expands from the center of the explosion instead of being applied instantly. Fixed case where picking up dropped weapons through the Buy Menu would fail to complete.. Added two new weapon collections based on the recent Call to Arms community announcement: Spy Tech + Arabesque. Added two new sticker collections based on the recent Call to Arms",
+      "date": "08.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Season 5, Armory, and More",
+      "body": "Reporting for Active Duty Cache has officially arrived, and replaces Overpass in the active duty map pool. Put your hard-earned strats to the test and rise through the Premier ranks in CS2's newest battlefield. Get out of there, it's gonna blow! Season 5 has arrived with some explosive changes to CS2--bomb damage has been completely reworked. Now, when the bomb detonates, an explosive wave of destruction will flow from the bombsite through the map. As before, if you're too close to the bomb when it explodes, you're toast--but the shockwave dissipates around corners and doesn't go through walls, so at a certain distance you can use your wits to survive. Or, if you're not confident your wits",
+      "date": "08.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "The Jackass Sticker Capsule",
       "body": "Today we’re excited to release the Jackass Sticker Capsule in association with Paramount Games Studio, Jackass graphic artist Andy Jenkins, and community artist The Danidem. Celebrating the release of jackass: best and last, the Jackass Sticker Capsule contains 39 stickers referencing iconic Jackass moments. Whether it’s an airhorn on a golf course or a trip down Electric Avenue, there’s something for every jackass in here; even you!",
@@ -19,20 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Champions Autograph Stickers are now available for purchase in the Major Shop, congratulations to the Falcons! Highlight Souvenir Charms are now available for purchase in the Major Shop, featuring 10 highlights for each of the six stages of the Cologne 2026 Major, and the Falcons' trophy-lifting moment",
       "date": "01.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "The IEM Cologne 2026 Grand Finals",
-      "body": "Following one of the most unforgettable days in Major playoff history, Saturday's Semifinals left two teams standing in pursuit of a Major Championship. After losing the opening map of their Playoffs, FURIA have been unbeaten, rallying back against 9z Team to win 2-1 in the Quarterfinals and taking down Aurora Gaming 2-0 in the Semifinals to reach the Grand Finals for the first time in the organization's history. Team Falcons took down the world's #1 team, Team Vitality, 2-1 in the Quarterfinals. A day later, they punched their ticket to the Grand Finals by defeating Team Spirit 2-1 in dramatic fashion, needing Overtime in the third map. This is Team Falcons first Major Championship",
-      "date": "20.06.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Playoffs at the \"Cathedral of Counter-Strike\"",
-      "body": "Playoffs at the IEM Cologne 2026 Major begin tomorrow and the \"Cathedral of Counter-Strike\" awaits. For the second consecutive Major, FURIA and Team Spirit finished Stage III with perfect 3-0 records. Aurora, Falcons, and Vitality finished 3-1, and 9z Team, Bet Boom, and G2 Esports advanced with 3-2 records. The Lanxess Arena will host the Playoffs, beginning with Thursday's Quarterfinals matchups: 9z Team vs. FURIA Aurora vs. Bet Boom The second set of Quarterfinals takes place Friday, featuring: G2 Esports vs. Team Spirit Falcons vs. Vitality With Semifinals on Saturday and the Grand Finals on Sunday, we're in for a great weekend of Counter-Strike. As the Playoffs approach, there's still",
-      "date": "17.06.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
