@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-07-14T22:57:23.998896+00:00",
+  "generated_at": "2026-07-15T02:35:42.416186+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Fachwerk. Updated to the latest version from the Community Workshop (Update Notes). Boulder. Updated to the latest version from the Community Workshop (Update Notes). Shelter. Updated to the latest version from the Community Workshop (Update Notes). El Dorado. Updated to the latest version from the Community Workshop (Update Notes). Various stability and security fixes",
+      "date": "15.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Removed map-wide minimum one point of damage from new C4 explosions. Fixed a case where new C4 damage was calculated incorrectly near boundaries to other map areas. New C4 explosions now apply more force to dropped weapons. Adjusted the \"Sniper Ahead\" sticker visibility when scraped.. Fixed a case where season medals were missing their gold tint on one of the bars. Fixed a case where the scoreboard wouldn't update while open. Various stability improvements",
@@ -26,13 +33,6 @@
       "title": "The Jackass Sticker Capsule",
       "body": "Today we’re excited to release the Jackass Sticker Capsule in association with Paramount Games Studio, Jackass graphic artist Andy Jenkins, and community artist The Danidem. Celebrating the release of jackass: best and last, the Jackass Sticker Capsule contains 39 stickers referencing iconic Jackass moments. Whether it’s an airhorn on a golf course or a trip down Electric Avenue, there’s something for every jackass in here; even you!",
       "date": "03.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Team Falcons' Finale",
-      "body": "on the toughest Playoff bracket in Major history, the Falcons made a triumphant statement at the IEM Cologne 2026 Major. Facing the defending Major Champions in the Quarterfinals, Falcons defeated Vitality 2-1, with each map taking 24 rounds to determine a winner. The Semifinals weren't any easier, where the Falcons met Team Spirit in a best of three that saw two maps go to Overtime. In the end, the Falcons outlasted Team Spirit 16: 12 on Dust II, taking the series 2-1 and booking their first appearance in the Grand Finals. In the Grand Finals the Falcons left no doubt, defeating FURIA 3-0 to claim the organization's first Major Championship. To celebrate the closing of the Cologne Major,",
-      "date": "01.07.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
