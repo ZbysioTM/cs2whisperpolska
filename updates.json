@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-07-20T23:01:48.882093+00:00",
+  "generated_at": "2026-07-21T02:49:00.596482+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "The bomb damage health preview is now revealed when the bomb becomes audible. The bomb explosion now interacts with smoke grenade clouds and molotov/incendiary fire. Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Boulder. Updated to the latest version from the Community Workshop (Update Notes)Debris. Updated to the latest version from the Community Workshop (Update Notes). Added Workshop maps section to Play menu for Counter-Strike in Steam China. Added a shortcut to Community Servers list to Play menu for Counter-Strike in Steam China",
+      "date": "20.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Call II Arms-ory",
       "body": "Last week we released new weapon and sticker collections from our previous Call to Arms-ory. Congratulations to the artists who had their items included! Now that these items are available, we're looking for new items for one new weapon collection: - Fairy Tales And two new sticker collections: - Cryptids - Pop Art To submit weapon finishes and stickers to this Call to Arms, select the appropriate option using the Counter-Strike 2 Workshop Tool: In order to have your items included in these new collections, you must agree to Counter-Strike 2's Supplemental terms. We're excited to see your take on the categories above!",
@@ -25,13 +32,6 @@
     {
       "title": "Counter-Strike 2 Update",
       "body": "Premier Season Five has begun. Added Cache to the Active Duty Map Pool. Removed Overpass from the Active Duty Map Pool. Re-designed effective range and extent of C4 explosion damage on all official defusal-mode maps. Damage is now applied according to precomputed simulation values, baked into the compiled map. Explosion shockwave damage now rapidly expands from the center of the explosion instead of being applied instantly. Fixed case where picking up dropped weapons through the Buy Menu would fail to complete.. Added two new weapon collections based on the recent Call to Arms community announcement: Spy Tech + Arabesque. Added two new sticker collections based on the recent Call to Arms",
-      "date": "08.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Season 5, Armory, and More",
-      "body": "Reporting for Active Duty Cache has officially arrived, and replaces Overpass in the active duty map pool. Put your hard-earned strats to the test and rise through the Premier ranks in CS2's newest battlefield. Get out of there, it's gonna blow! Season 5 has arrived with some explosive changes to CS2--bomb damage has been completely reworked. Now, when the bomb detonates, an explosive wave of destruction will flow from the bombsite through the map. As before, if you're too close to the bomb when it explodes, you're toast--but the shockwave dissipates around corners and doesn't go through walls, so at a certain distance you can use your wits to survive. Or, if you're not confident your wits",
       "date": "08.07.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
