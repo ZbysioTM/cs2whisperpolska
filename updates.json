@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-28T23:00:50.544209+00:00",
+  "generated_at": "2026-07-29T02:45:46.959236+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "The Ranked Series stickers are now available for purchase. 50% of royalties are shared with players, teams, and the tournament organizer. Items in the the Cologne 2026 Shop will be available for purchase until September 29th.. Fixed a bug where scripts would fail to load in tools mode until a manual recompile. Boulder. Updated to the latest version from the Community Workshop (Update Notes)Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Shelter. Updated to the latest version from the Community Workshop (Update Notes). Fixed a bug which prevented some users from claiming Collection Catalog XP for The Dead Hand Collection. Fixed a bug that allowed malicious",
+      "date": "29.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Cologne 2026: Ranked Series",
+      "body": "Today we're shipping the Ranked Series of Cologne 2026 Major stickers--new stickers that indicate a team's final standing in the design. As with all items in the Cologne 2026 Shop, 50% of the royalties support the teams, players and tournament organizer. The original dynamic pricing system determined the relative interest in players and teams, but it didn't produce reasonable prices. So the Ranked stickers have a lower price, but with the same relationship between players and teams as the Event Series stickers (as of today's update). Check out the new stickers and support your favorite players and teams! The Cologne 2026 Shop will be available until September 29th",
+      "date": "29.07.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "The bomb damage health preview is now revealed when the bomb becomes audible. The bomb explosion now interacts with smoke grenade clouds and molotov/incendiary fire. Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Boulder. Updated to the latest version from the Community Workshop (Update Notes)Debris. Updated to the latest version from the Community Workshop (Update Notes). Added Workshop maps section to Play menu for Counter-Strike in Steam China. Added a shortcut to Community Servers list to Play menu for Counter-Strike in Steam China",
@@ -19,20 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Fachwerk. Updated to the latest version from the Community Workshop (Update Notes). Boulder. Updated to the latest version from the Community Workshop (Update Notes). Shelter. Updated to the latest version from the Community Workshop (Update Notes). El Dorado. Updated to the latest version from the Community Workshop (Update Notes). Various stability and security fixes",
       "date": "15.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Removed map-wide minimum one point of damage from new C4 explosions. Fixed a case where new C4 damage was calculated incorrectly near boundaries to other map areas. New C4 explosions now apply more force to dropped weapons. Adjusted the \"Sniper Ahead\" sticker visibility when scraped.. Fixed a case where season medals were missing their gold tint on one of the bars. Fixed a case where the scoreboard wouldn't update while open. Various stability improvements",
-      "date": "09.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Premier Season Five has begun. Added Cache to the Active Duty Map Pool. Removed Overpass from the Active Duty Map Pool. Re-designed effective range and extent of C4 explosion damage on all official defusal-mode maps. Damage is now applied according to precomputed simulation values, baked into the compiled map. Explosion shockwave damage now rapidly expands from the center of the explosion instead of being applied instantly. Fixed case where picking up dropped weapons through the Buy Menu would fail to complete.. Added two new weapon collections based on the recent Call to Arms community announcement: Spy Tech + Arabesque. Added two new sticker collections based on the recent Call to Arms",
-      "date": "08.07.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
