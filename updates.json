@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-08-24T22:27:28.535318+00:00",
+  "generated_at": "2026-08-25T01:19:34.511996+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Added custom_hud_layout entity: custom_hud_layouts are the entry point for scripted maps to provide custom UI. Panel, Label, Image, and Button panel types are supported. Styling with css is supported. Events and client side scripting are not supported. Maintains state during tools mode reloads. Added cs_player_camera entity: Gives control of a player's view without moving their pawn. Can be configured to let the player look around from the scripted position. Added Instance. Delay. Added Instance. On Bomb Plant Start. Added Instance. On Bomb Plant Abort. Added Instance. On Bomb Defuse Start. Added Instance. On Bomb Defuse Abort. Added Instance. On Custom Hud Clicked. Added Instance. Is",
+      "date": "24.08.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Boulder. Updated to the latest version from the Community Workshop (Update Notes)Poseidon. Updated to the latest version from the Community Workshop (Update Notes). Fixed a case where player speed was too high when moving against walls",
@@ -25,13 +32,6 @@
     {
       "title": "Counter-Strike 2 Update",
       "body": "The Ranked Series stickers are now available for purchase. 50% of royalties are shared with players, teams, and the tournament organizer. Items in the the Cologne 2026 Shop will be available for purchase until September 29th.. Fixed a bug where scripts would fail to load in tools mode until a manual recompile. Boulder. Updated to the latest version from the Community Workshop (Update Notes)Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Shelter. Updated to the latest version from the Community Workshop (Update Notes). Fixed a bug which prevented some users from claiming Collection Catalog XP for The Dead Hand Collection. Fixed a bug that allowed malicious",
-      "date": "29.07.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Cologne 2026: Ranked Series",
-      "body": "Today we're shipping the Ranked Series of Cologne 2026 Major stickers--new stickers that indicate a team's final standing in the design. As with all items in the Cologne 2026 Shop, 50% of the royalties support the teams, players and tournament organizer. The original dynamic pricing system determined the relative interest in players and teams, but it didn't produce reasonable prices. So the Ranked stickers have a lower price, but with the same relationship between players and teams as the Event Series stickers (as of today's update). Check out the new stickers and support your favorite players and teams! The Cologne 2026 Shop will be available until September 29th",
       "date": "29.07.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
