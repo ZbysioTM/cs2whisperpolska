@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-09T22:19:38.750588+00:00",
+  "generated_at": "2026-09-10T03:35:04.210250+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Cache. Fixed various gaps in map. Fixed a wallbang spot on B site. Added a missing competitive CT spawn point. Added additional T spawn points. Reworked CSPlayer Camera: Renamed it to Custom Player Camera. Added Get Player, Get Mode, Set Mode, and Set Follow Config. Deprecated Is Enabled, Set Enabled, and Set Is Controlling Angles. Added an 'observable' property to custom_hud_layout that controls whether an observer sees the UI as the spectated player sees it. Defaults to false. Fixed several bugs related to stale custom_hud_layout state when changing spectator targets. Added top-level custom_hud_layout classes driven by client state:",
+      "date": "09.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Added custom_hud_layout entity: custom_hud_layouts are the entry point for scripted maps to provide custom UI. Panel, Label, Image, and Button panel types are supported. Styling with css is supported. Events and client side scripting are not supported. Maintains state during tools mode reloads. Added cs_player_camera entity: Gives control of a player's view without moving their pawn. Can be configured to let the player look around from the scripted position. Added Instance. Delay. Added Instance. On Bomb Plant Start. Added Instance. On Bomb Plant Abort. Added Instance. On Bomb Defuse Start. Added Instance. On Bomb Defuse Abort. Added Instance. On Custom Hud Clicked. Added Instance. Is",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Fixed a case where grenades could be thrown through level geometry. Cache. Fixed various gaps in map. Fixed collision in various spots across map. Fixed flickering on some assets. Removed boost spot in Outside AShelter. Updated to the latest version from the Community Workshop (Update Notes). Added Instance. Trace Player. Added Instance. On Weapon Pickup. Added Instance. On Bomb Explode. Added Instance. Spawn Grenade Projectile. Added dropper to Instance. On Weapon Drop event. Added hit Entity to Instance. On Grenade Bounce event. Added normal to Instance. On Grenade Bounce event. Added CSGrenade Projectile Base. Get Grenade Type. Added CSGrenade Projectile Base. Get Thrower. Added",
       "date": "03.08.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "The Ranked Series stickers are now available for purchase. 50% of royalties are shared with players, teams, and the tournament organizer. Items in the the Cologne 2026 Shop will be available for purchase until September 29th.. Fixed a bug where scripts would fail to load in tools mode until a manual recompile. Boulder. Updated to the latest version from the Community Workshop (Update Notes)Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Shelter. Updated to the latest version from the Community Workshop (Update Notes). Fixed a bug which prevented some users from claiming Collection Catalog XP for The Dead Hand Collection. Fixed a bug that allowed malicious",
-      "date": "29.07.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
