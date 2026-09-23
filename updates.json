@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-22T21:12:03.534812+00:00",
+  "generated_at": "2026-09-23T00:05:30.209306+00:00",
   "items": [
+    {
+      "title": "Rush Hour",
+      "body": "Put your foot on the gas and floor it. Welcome to Rush, a new fast-paced 3v3 queued mode for CS2. Experience the push and pull as you advance through a gauntlet of randomly-selected battle arenas, and dominate your opponent to win the match! Make the most of your limited budget and precious time to clear the objective. Control the tower when you eliminate the enemy team (or time expires) to win the round. Run the gauntlet of battle arenas to capture the enemy castle and win the match. The battle arenas are randomly selected each time you play, so no two matches are the same. Keep track of your wins and compete for bragging rights with the Rush friends leaderboard! Pick, Pick Pick, Pick We",
+      "date": "22.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Updated the map selection process to give players more opportunities to play maps they've been learning. Map selection process: Team 1 picks one map Team 2 picks two maps Team 1 picks a final map. One of the four maps will be randomly selected and the match will begin. Rush is a fast-paced queued 3v3 game mode. Players battle through a series of battle arenas to reach the opponent's castle and win the match. Battle arenas are randomly selected for each match, so no two matches are the same. Control the tower when you eliminate the enemy team (or time expires) to win the round. Players can now reload silently (but slowly) by pressing and holding the reload key. Un-scoping a sniper weapon no",
+      "date": "22.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Cache. Fixed various gaps in map. Fixed a wallbang spot on B site. Added a missing competitive CT spawn point. Added additional T spawn points. Reworked CSPlayer Camera: Renamed it to Custom Player Camera. Added Get Player, Get Mode, Set Mode, and Set Follow Config. Deprecated Is Enabled, Set Enabled, and Set Is Controlling Angles. Added an 'observable' property to custom_hud_layout that controls whether an observer sees the UI as the spectated player sees it. Defaults to false. Fixed several bugs related to stale custom_hud_layout state when changing spectator targets. Added top-level custom_hud_layout classes driven by client state:",
@@ -19,20 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Boulder. Updated to the latest version from the Community Workshop (Update Notes)Poseidon. Updated to the latest version from the Community Workshop (Update Notes). Fixed a case where player speed was too high when moving against walls",
       "date": "19.08.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Fachwerk. Updated to the latest version from the Community Workshop (Update Notes)Shelter. Updated to the latest version from the Community Workshop (Update Notes)",
-      "date": "12.08.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Fixed a case where grenades could be thrown through level geometry. Cache. Fixed various gaps in map. Fixed collision in various spots across map. Fixed flickering on some assets. Removed boost spot in Outside AShelter. Updated to the latest version from the Community Workshop (Update Notes). Added Instance. Trace Player. Added Instance. On Weapon Pickup. Added Instance. On Bomb Explode. Added Instance. Spawn Grenade Projectile. Added dropper to Instance. On Weapon Drop event. Added hit Entity to Instance. On Grenade Bounce event. Added normal to Instance. On Grenade Bounce event. Added CSGrenade Projectile Base. Get Grenade Type. Added CSGrenade Projectile Base. Get Thrower. Added",
-      "date": "03.08.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
