@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-23T22:46:49.824383+00:00",
+  "generated_at": "2026-09-24T03:39:31.471929+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Increased the maximum countdown-after-elimination time from 7 seconds to 14 seconds on end rooms and Convoy. The countdown-after-elimination time does not activate in cases where an entire team dies to suicides, team kills, and/or disconnects. Warmup time once all players have connected, freeze time, and technical timeout time are all reduced. Various gap fixes and clipping adjustments. Some additional information about the new crosshair system: The new crosshair thickness and length units are in pixels. In the past, the values were defined with an arbitrary scale and converted to pixels based on display resolution so the same value would result in different pixel counts at different",
+      "date": "23.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Rush Hour",
       "body": "Put your foot on the gas and floor it. Welcome to Rush, a new fast-paced 3v3 queued mode for CS2. Experience the push and pull as you advance through a gauntlet of randomly-selected battle arenas, and dominate your opponent to win the match! Make the most of your limited budget and precious time to clear the objective. Control the tower when you eliminate the enemy team (or time expires) to win the round. Run the gauntlet of battle arenas to capture the enemy castle and win the match. The battle arenas are randomly selected each time you play, so no two matches are the same. Keep track of your wins and compete for bragging rights with the Rush friends leaderboard! Pick, Pick Pick, Pick We",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Added custom_hud_layout entity: custom_hud_layouts are the entry point for scripted maps to provide custom UI. Panel, Label, Image, and Button panel types are supported. Styling with css is supported. Events and client side scripting are not supported. Maintains state during tools mode reloads. Added cs_player_camera entity: Gives control of a player's view without moving their pawn. Can be configured to let the player look around from the scripted position. Added Instance. Delay. Added Instance. On Bomb Plant Start. Added Instance. On Bomb Plant Abort. Added Instance. On Bomb Defuse Start. Added Instance. On Bomb Defuse Abort. Added Instance. On Custom Hud Clicked. Added Instance. Is",
       "date": "24.08.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Boulder. Updated to the latest version from the Community Workshop (Update Notes)Poseidon. Updated to the latest version from the Community Workshop (Update Notes). Fixed a case where player speed was too high when moving against walls",
-      "date": "19.08.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
