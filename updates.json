@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-24T19:51:02.901947+00:00",
+  "generated_at": "2026-09-24T23:04:02.370235+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Added a better description of the rules to the loading screen. Adjusted rules for determining when to kick players due to team damage. Various clipping adjustments.. Fixed a case where it was possible to get a slightly faster silent reload by tapping the reload button before holding it. Fixed a case where it was possible to use silent reload to fire shotguns faster than normal.. Fixed a case where the AK-47 inspect animation sometimes popped",
+      "date": "24.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Increased the maximum countdown-after-elimination time from 7 seconds to 14 seconds on end rooms and Convoy. The countdown-after-elimination time does not activate in cases where an entire team dies to suicides, team kills, and/or disconnects. Warmup time once all players have connected, freeze time, and technical timeout time are all reduced. Various gap fixes and clipping adjustments. Some additional information about the new crosshair system: The new crosshair thickness and length units are in pixels. In the past, the values were defined with an arbitrary scale and converted to pixels based on display resolution so the same value would result in different pixel counts at different",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Cache. Fixed various gaps in map. Fixed a wallbang spot on B site. Added a missing competitive CT spawn point. Added additional T spawn points. Reworked CSPlayer Camera: Renamed it to Custom Player Camera. Added Get Player, Get Mode, Set Mode, and Set Follow Config. Deprecated Is Enabled, Set Enabled, and Set Is Controlling Angles. Added an 'observable' property to custom_hud_layout that controls whether an observer sees the UI as the spectated player sees it. Defaults to false. Fixed several bugs related to stale custom_hud_layout state when changing spectator targets. Added top-level custom_hud_layout classes driven by client state:",
       "date": "09.09.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Added custom_hud_layout entity: custom_hud_layouts are the entry point for scripted maps to provide custom UI. Panel, Label, Image, and Button panel types are supported. Styling with css is supported. Events and client side scripting are not supported. Maintains state during tools mode reloads. Added cs_player_camera entity: Gives control of a player's view without moving their pawn. Can be configured to let the player look around from the scripted position. Added Instance. Delay. Added Instance. On Bomb Plant Start. Added Instance. On Bomb Plant Abort. Added Instance. On Bomb Defuse Start. Added Instance. On Bomb Defuse Abort. Added Instance. On Custom Hud Clicked. Added Instance. Is",
-      "date": "24.08.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
