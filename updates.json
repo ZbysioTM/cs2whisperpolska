@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-25T19:53:09.911541+00:00",
+  "generated_at": "2026-09-25T23:09:06.352350+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Various gap fixes and clipping adjustments.. Fixed some cases where loud reloads would persist while trying to stealth reload.. Added sv_clantags_enabled option so custom servers can disable clan tags. The eggs of background players in main menu lobbies now rest in nests",
+      "date": "25.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Added a better description of the rules to the loading screen. Adjusted rules for determining when to kick players due to team damage. Various clipping adjustments.. Fixed a case where it was possible to get a slightly faster silent reload by tapping the reload button before holding it. Fixed a case where it was possible to use silent reload to fire shotguns faster than normal.. Fixed a case where the AK-47 inspect animation sometimes popped",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Updated the map selection process to give players more opportunities to play maps they've been learning. Map selection process: Team 1 picks one map Team 2 picks two maps Team 1 picks a final map. One of the four maps will be randomly selected and the match will begin. Rush is a fast-paced queued 3v3 game mode. Players battle through a series of battle arenas to reach the opponent's castle and win the match. Battle arenas are randomly selected for each match, so no two matches are the same. Control the tower when you eliminate the enemy team (or time expires) to win the round. Players can now reload silently (but slowly) by pressing and holding the reload key. Un-scoping a sniper weapon no",
       "date": "22.09.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Cache. Fixed various gaps in map. Fixed a wallbang spot on B site. Added a missing competitive CT spawn point. Added additional T spawn points. Reworked CSPlayer Camera: Renamed it to Custom Player Camera. Added Get Player, Get Mode, Set Mode, and Set Follow Config. Deprecated Is Enabled, Set Enabled, and Set Is Controlling Angles. Added an 'observable' property to custom_hud_layout that controls whether an observer sees the UI as the spectated player sees it. Defaults to false. Fixed several bugs related to stale custom_hud_layout state when changing spectator targets. Added top-level custom_hud_layout classes driven by client state:",
-      "date": "09.09.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
