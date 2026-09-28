@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-28T17:59:19.165721+00:00",
+  "generated_at": "2026-09-28T23:11:05.384987+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Fixed pixel-gaps in various Rush rooms. Clipping adjustments in T/CT Castle rooms",
+      "date": "28.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Various gap fixes and clipping adjustments.. Fixed some cases where loud reloads would persist while trying to stealth reload.. Added sv_clantags_enabled option so custom servers can disable clan tags. The eggs of background players in main menu lobbies now rest in nests",
@@ -25,13 +32,6 @@
     {
       "title": "Rush Hour",
       "body": "Put your foot on the gas and floor it. Welcome to Rush, a new fast-paced 3v3 queued mode for CS2. Experience the push and pull as you advance through a gauntlet of randomly-selected battle arenas, and dominate your opponent to win the match! Make the most of your limited budget and precious time to clear the objective. Control the tower when you eliminate the enemy team (or time expires) to win the round. Run the gauntlet of battle arenas to capture the enemy castle and win the match. The battle arenas are randomly selected each time you play, so no two matches are the same. Keep track of your wins and compete for bragging rights with the Rush friends leaderboard! Pick, Pick Pick, Pick We",
-      "date": "22.09.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Updated the map selection process to give players more opportunities to play maps they've been learning. Map selection process: Team 1 picks one map Team 2 picks two maps Team 1 picks a final map. One of the four maps will be randomly selected and the match will begin. Rush is a fast-paced queued 3v3 game mode. Players battle through a series of battle arenas to reach the opponent's castle and win the match. Battle arenas are randomly selected for each match, so no two matches are the same. Control the tower when you eliminate the enemy team (or time expires) to win the round. Players can now reload silently (but slowly) by pressing and holding the reload key. Un-scoping a sniper weapon no",
       "date": "22.09.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
