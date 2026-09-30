@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-30T18:51:32.177280+00:00",
+  "generated_at": "2026-09-30T23:32:05.799122+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Various clipping fixes in Rush maps. Fixed visualization of weapon inaccuracy + spread. Added crosshair outline color option. Added a new style \"Static Quadrant\"Enabled grenade crosshairs in freeze time for insta-smokes (just hold any grenade attack button)Allowed negative gaps for classic dynamic crosshair style. Changed the classic dynamic crosshair alpha increments to 0. 01Scope dot scale and color preferences are now included in the new crosshair share code. Changed the format of the crosshair share code to accommodate newly included crosshair settings",
+      "date": "30.09.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Fixed pixel-gaps in various Rush rooms. Clipping adjustments in T/CT Castle rooms",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Increased the maximum countdown-after-elimination time from 7 seconds to 14 seconds on end rooms and Convoy. The countdown-after-elimination time does not activate in cases where an entire team dies to suicides, team kills, and/or disconnects. Warmup time once all players have connected, freeze time, and technical timeout time are all reduced. Various gap fixes and clipping adjustments. Some additional information about the new crosshair system: The new crosshair thickness and length units are in pixels. In the past, the values were defined with an arbitrary scale and converted to pixels based on display resolution so the same value would result in different pixel counts at different",
       "date": "23.09.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Rush Hour",
-      "body": "Put your foot on the gas and floor it. Welcome to Rush, a new fast-paced 3v3 queued mode for CS2. Experience the push and pull as you advance through a gauntlet of randomly-selected battle arenas, and dominate your opponent to win the match! Make the most of your limited budget and precious time to clear the objective. Control the tower when you eliminate the enemy team (or time expires) to win the round. Run the gauntlet of battle arenas to capture the enemy castle and win the match. The battle arenas are randomly selected each time you play, so no two matches are the same. Keep track of your wins and compete for bragging rights with the Rush friends leaderboard! Pick, Pick Pick, Pick We",
-      "date": "22.09.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
