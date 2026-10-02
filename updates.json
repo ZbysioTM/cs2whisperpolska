@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-02T19:01:56.650309+00:00",
+  "generated_at": "2026-10-02T23:35:35.743871+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Agents now wear their equipped gloves during the photobooth photography sessions and in buy menu. Fixed grenade crosshair rendering when crosshair thickness is set to 3 pixels. Fixed formatting of titles in commend and report dialogs. Improved lighting in the Warehouse map. Updated workshop convars whitelist with the new crosshair settings Stability improvements",
+      "date": "02.10.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Various clipping fixes in Rush maps. Fixed visualization of weapon inaccuracy + spread. Added crosshair outline color option. Added a new style \"Static Quadrant\"Enabled grenade crosshairs in freeze time for insta-smokes (just hold any grenade attack button)Allowed negative gaps for classic dynamic crosshair style. Changed the classic dynamic crosshair alpha increments to 0. 01Scope dot scale and color preferences are now included in the new crosshair share code. Changed the format of the crosshair share code to accommodate newly included crosshair settings",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Added a better description of the rules to the loading screen. Adjusted rules for determining when to kick players due to team damage. Various clipping adjustments.. Fixed a case where it was possible to get a slightly faster silent reload by tapping the reload button before holding it. Fixed a case where it was possible to use silent reload to fire shotguns faster than normal.. Fixed a case where the AK-47 inspect animation sometimes popped",
       "date": "24.09.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Increased the maximum countdown-after-elimination time from 7 seconds to 14 seconds on end rooms and Convoy. The countdown-after-elimination time does not activate in cases where an entire team dies to suicides, team kills, and/or disconnects. Warmup time once all players have connected, freeze time, and technical timeout time are all reduced. Various gap fixes and clipping adjustments. Some additional information about the new crosshair system: The new crosshair thickness and length units are in pixels. In the past, the values were defined with an arbitrary scale and converted to pixels based on display resolution so the same value would result in different pixel counts at different",
-      "date": "23.09.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
