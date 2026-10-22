@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-22T19:47:45.663866+00:00",
+  "generated_at": "2026-10-22T23:00:41.429114+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Added Instance. Precache Returns a CSPrecache object. Added CSPrecache. Is Server Loading. Added CSPrecache. Is Server Loaded. Added CSPrecache. Is Client Loading. Added CSPrecache. Is Client Loaded. Added CSPrecache. Is Loaded For All. Added CSPrecache. Release. Added CSHostage. Added CSHostage. Is Being Picked Up. Added CSHostage. Is Being Carried. Added CSHostage. Is Rescued. Added CSHostage. Get Rescuer. Added CSHostage. Get Pick Up Start Time. Added CSHostage. Get Pick Up Finish Time. Added CSPlayer Pawn. Get Hostage. Added Instance. On Hostage Pick Up Start. Added Instance. On Hostage Pick Up Abort. Added Instance. On Hostage Pick Up. Added Instance. On Hostage Drop. Added Instance.",
+      "date": "22.10.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Demo/Replay viewer improvements:. Added a progress bar for demo/replay downloads Camera controls now use click-and-drag scheme Free and chase camera are usable during a paused demo. Fixed some minor issues when seeking to a different position in the demo file. Round backup files now require the game server startup flag \"-allow_round_backup_files\". Updated AUG reload animations for standing and crouch reloads to better match new reload duration Allowed radio commands now have an explicit list. Added toolsskybox_occluder tool material for CS2 Workshop Tools Stability improvements for Vulkan renderer",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Agents now wear their equipped gloves during the photobooth photography sessions and in buy menu. Fixed grenade crosshair rendering when crosshair thickness is set to 3 pixels. Fixed formatting of titles in commend and report dialogs. Improved lighting in the Warehouse map. Updated workshop convars whitelist with the new crosshair settings Stability improvements",
       "date": "02.10.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Various clipping fixes in Rush maps. Fixed visualization of weapon inaccuracy + spread. Added crosshair outline color option. Added a new style \"Static Quadrant\"Enabled grenade crosshairs in freeze time for insta-smokes (just hold any grenade attack button)Allowed negative gaps for classic dynamic crosshair style. Changed the classic dynamic crosshair alpha increments to 0. 01Scope dot scale and color preferences are now included in the new crosshair share code. Changed the format of the crosshair share code to accommodate newly included crosshair settings",
-      "date": "30.09.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
