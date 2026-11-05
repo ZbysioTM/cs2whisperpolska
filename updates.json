@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-04T23:19:01.615699+00:00",
+  "generated_at": "2026-11-05T05:38:13.457553+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Bomb defusal in Retakes mode will now instantly finish when there is sufficient time remaining in the round and no active utility remains to prevent the defuse. Reduced freeze time and round restart delay in Retakes mode. Pinging pet chickens during freeze time will request a trick from them. Pet chicken names are no longer displayed when customized item text game option is set to hidden. Instance. Precache now accepts entities to precache. Added new top level export Entities. Added Entities. Spawn. Added Instance. On Bot Control. Added CSPlayer Controller. Is Controlling Bot. Added CSPlayer Controller. Get Controlled Bot Pawn. Added CSPlayer Pawn. Reset Moved Instance. Connect Output to",
+      "date": "05.11.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Added an option to switch Silent Reload Mode between Hold and Toggle. With toggle enabled, once the silent reload starts you can let go of the reload button. To cancel a silent reload and go back to a fast reload, you can tap the reload button again. Fixed various cases where the first sound of a reload was audible irrespective if a user requested a silent reload or not.. Fixed a bug where liquid could render as black on AMD video cards. Fixed some sound and UI bugs when rewinding during demo playback",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Added a ping icon for dropped defuse kits Reduced the time for AUG reload by half second. Fixed the sound event during silent reload for Desert Eagle. Fixed a case of buzzing soundscape sounds during demo playback Clipping fixes for Rush maps Localization updates Stability updates",
       "date": "08.10.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Pet photobook pages now have localized text art. Added play menu buttons to manage downloaded Workshop maps. Adjusted VK shader cache extension flags",
-      "date": "05.10.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
