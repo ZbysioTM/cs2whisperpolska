@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-23T19:55:33.702551+00:00",
+  "generated_at": "2026-11-24T04:39:11.139918+00:00",
   "items": [
+    {
+      "title": "Counter-Strike 2 Update",
+      "body": "Cobblestone. Fixed a spot in princess tower where the bomb could be thrown out of reach. Fixed some bad wall bang locations Fixes for smoother player movement throughout the level. Fixed some bad boosts and walkable ledges. Fixed a location at B where grenades could fall through the world. Fixed various gaps in the world. Fixed third-person silent reload animations to play at correct speed Various stability improvements",
+      "date": "23.11.2026",
+      "url": "https://store.steampowered.com/news/app/730",
+      "tag": "CS2 Update"
+    },
     {
       "title": "Counter-Strike 2 Update",
       "body": "Cobblestone. Fixed some walkable ledges in long AFixed map issue that was loading an empty skybox. Fixed an audio blocker issue by mid/AAdded a grenade clip to assault van bumper. Fixed various gaps in the world Inferno. Fixed grenade and Molotov exploit spot from church to dark on bombsite B.. Updated slow reload animation for the AWPOptimized ground burn decals under smoke on very high graphics settings. Players in Switzerland will have an X-Ray Scanner tab in their Inventory. For those players, containers can only be opened via X-Ray Scanner. The X-Ray Scanner will come preloaded with a one-time exclusive non-tradable \"Genuine P250 | X-Ray\", which must be claimed before using the X-Ray",
@@ -26,13 +33,6 @@
       "title": "Counter-Strike 2 Update",
       "body": "Fixed some cases of popping and glitching when switching weapons and reloading at extreme angles. Fixed bot pathing issue in Retakes game mode. Fixed a rendering hang on DX11Improved avx / avx512 instruction set detection Miscellaneous stability and performance improvements",
       "date": "11.11.2026",
-      "url": "https://store.steampowered.com/news/app/730",
-      "tag": "CS2 Update"
-    },
-    {
-      "title": "Counter-Strike 2 Update",
-      "body": "Bomb defusal in Retakes mode will now instantly finish when there is sufficient time remaining in the round and no active utility remains to prevent the defuse. Reduced freeze time and round restart delay in Retakes mode. Pinging pet chickens during freeze time will request a trick from them. Pet chicken names are no longer displayed when customized item text game option is set to hidden. Instance. Precache now accepts entities to precache. Added new top level export Entities. Added Entities. Spawn. Added Instance. On Bot Control. Added CSPlayer Controller. Is Controlling Bot. Added CSPlayer Controller. Get Controlled Bot Pawn. Added CSPlayer Pawn. Reset Moved Instance. Connect Output to",
-      "date": "05.11.2026",
       "url": "https://store.steampowered.com/news/app/730",
       "tag": "CS2 Update"
     }
